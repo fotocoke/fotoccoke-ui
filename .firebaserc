@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fotocoke-fb76c": {
+      "hosting": {
+        "fotocoke-ui": [
+          "fotocoke-fb76c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "prod": "fotocoke-fb76c"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "fotocoke-ui",
+      "public": "dist/fotocoke-ui",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

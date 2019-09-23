@@ -17,7 +17,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@enums/*": ["src/app/shared/enums/*"],
+      "@interfaces/*": ["src/app/shared/interfaces/*"],
+      "@app-selectors/*": ["src/app/shared/redux/selectors/*"],
+      "@app-actions/*": ["src/app/shared/redux/actions/*"],
+      "@app-reducers/*": ["src/app/shared/redux/reducers/*"],
+      "@app-effects/*": ["src/app/shared/redux/effects/*"],
+      "@app-states/*": ["src/app/shared/redux/states/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@app/*": ["src/app/*"],
+      "@env/*": ["src/environments/*"],
+      "@mat/*": ["src/material-design/*"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
