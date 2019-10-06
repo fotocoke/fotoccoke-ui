@@ -19,17 +19,57 @@
       "dom"
     ],
     "paths": {
-      "@enums/*": ["src/app/shared/enums/*"],
-      "@interfaces/*": ["src/app/shared/interfaces/*"],
-      "@app-selectors/*": ["src/app/shared/redux/selectors/*"],
-      "@app-actions/*": ["src/app/shared/redux/actions/*"],
-      "@app-reducers/*": ["src/app/shared/redux/reducers/*"],
-      "@app-effects/*": ["src/app/shared/redux/effects/*"],
-      "@app-states/*": ["src/app/shared/redux/states/*"],
-      "@shared/*": ["src/app/shared/*"],
-      "@app/*": ["src/app/*"],
-      "@env/*": ["src/environments/*"],
-      "@mat/*": ["src/material-design/*"]
+      "@web/enums/*": [
+        "projects/web/src/app/shared/enums/*"
+      ],
+      "@web/interfaces/*": [
+        "projects/web/src/app/shared/interfaces/*"
+      ],
+      "@web/selectors/*": [
+        "projects/web/src/app/shared/redux/selectors/*"
+      ],
+      "@web/actions/*": [
+        "projects/web/src/app/shared/redux/actions/*"
+      ],
+      "@web/reducers/*": [
+        "projects/web/src/app/shared/redux/reducers/*"
+      ],
+      "@web/effects/*": [
+        "projects/web/src/app/shared/redux/effects/*"
+      ],
+      "@web/states/*": [
+        "projects/web/src/app/shared/redux/states/*"
+      ],
+      "@web/shared/*": [
+        "projects/web/src/app/shared/*"
+      ],
+      "@web/env/*": [
+        "projects/web/src/environments/*"
+      ],
+      "@web/*": [
+        "projects/web/src/app/*"
+      ],
+      "@mat/*": [
+        "src/material-design/*"
+      ],
+      "fc-common": [
+        "dist/fc-common"
+      ],
+      "fc-common/*": [
+        "dist/fc-common/*"
+      ],
+      "mat-lib": [
+        "dist/mat-lib"
+      ],
+      "mat-lib/*": [
+        "dist/mat-lib/*"
+      ],
+      "fc-mat": [
+        "dist/fc-mat"
+      ],
+      "fc-mat/*": [
+        "dist/fc-mat/*"
+      ]
     }
   },
   "angularCompilerOptions": {
