@@ -49,20 +49,11 @@
       "@web/*": [
         "projects/web/src/app/*"
       ],
-      "@mat/*": [
-        "src/material-design/*"
-      ],
       "fc-common": [
         "dist/fc-common"
       ],
       "fc-common/*": [
         "dist/fc-common/*"
-      ],
-      "mat-lib": [
-        "dist/mat-lib"
-      ],
-      "mat-lib/*": [
-        "dist/mat-lib/*"
       ],
       "fc-mat": [
         "dist/fc-mat"

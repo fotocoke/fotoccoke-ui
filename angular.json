@@ -156,6 +156,7 @@
               "projects/web/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "projects/web/src/styles.scss"
             ],
             "scripts": []
@@ -221,6 +222,7 @@
               "projects/web/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "projects/web/src/styles.scss"
             ],
             "scripts": []
@@ -258,11 +260,11 @@
       "root": "projects/fc-common",
       "sourceRoot": "projects/fc-common/src",
       "prefix": "fc-common",
-      "schematics": {                          
+      "schematics": {
         "@schematics/angular:component": {
           "styleext": "scss"
         }
-      },  
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",

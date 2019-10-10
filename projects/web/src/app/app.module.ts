@@ -11,15 +11,7 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationComponent } from './core/components/navigation/navigation.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
 import { DashboardComponent } from './core/components/dashboard/dashboard.component';
-import { MatGridListModule } from '@angular/material/grid-list';
-import { MatCardModule } from '@angular/material/card';
-import { MatMenuModule } from '@angular/material/menu';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { LoginComponent } from './users/login/login.component';
 import { RegisterComponent } from './users/register/register.component';
@@ -27,6 +19,7 @@ import { ProfileComponent } from './users/profile/profile.component';
 import { AuthService } from './core/services/auth.service';
 
 import { FotocokeCommonModule } from '@fotocoke/common';
+import { MaterialDesignModule } from '@fotocoke/mat';
 
 @NgModule({
   declarations: [
@@ -47,15 +40,8 @@ import { FotocokeCommonModule } from '@fotocoke/common';
     AngularFireAuthModule,
     BrowserAnimationsModule,
     LayoutModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
-    MatGridListModule,
-    MatCardModule,
-    MatMenuModule,
-    FotocokeCommonModule
+    MaterialDesignModule,
+    FotocokeCommonModule,
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
